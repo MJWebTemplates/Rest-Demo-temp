@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/metisMenu/3.0.7/metisMenu.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+    <link rel="stylesheet" href="./assets/js/jquery/jquery-ui.min.css">
+    <link rel="stylesheet" href="./assets/font/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/css/animate/animate.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+
+<body>
+
+    <!-- body wrapper starts ....... -->
+
+    <!-- preloader section start........ -->
+    <div class="preloader">
+        <div class="spinner">
+            <div class="dot1"></div>
+            <div class="dot2"></div>
+        </div>
+    </div>
+    <!-- preloader section end........ -->
+
+    <!-- back to top page start ..... -->
+    <div id="thetop"></div>
+    <div class="backtotop">
+        <a href="#" id="scroll"><i class="fas fa-long-arrow-alt-up"></i></a>
+    </div>
+    <!-- back to top page End ..... -->
+
+    <!-- main header menu sectioin start..... -->
+    <header class="header">
+        <a href="#" class="img_logo"><img src="./assets/img/logo/logo.png" alt="#"></a>
+        <nav class="navbar">
+            <ul class="nav_menu">
+                <li class="nav-items"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-items active"><a href="about.html" class="nav-link">about</a></li>
+                <li class="nav-items"><a href="menu.html" class="nav-link">menu</a>
+                    <ul class="sub-menu active">
+                        <li><a href="#" class="sub-link">recipe-menu-1</a></li>
+                        <li><a href="#" class="sub-link">team-menu-2</a></li>
+                        <li><a href="#" class="sub-link">faq-menu-3</a></li>
+                        <li><a href="#" class="sub-link">sub-menu-4</a></li>
+                    </ul>
+                </li>
+                <li class="nav-items"><a href="#services" class="nav-link">services</a></li>
+                <li class="nav-items"><a href="#pages" class="nav-link">pages</a>
+                    <ul class="sub-menu">
+                        <li><a href="reservetion.html" class="sub-link">RESERVATION FROM</a></li>
+                        <li><a href="history.html" class="sub-link">HISTORY</a></li>
+                        <li><a href="#" class="sub-link">sub-menu-3</a></li>
+                        <li><a href="#" class="sub-link">sub-menu-4</a></li>
+                    </ul>
+                </li>
+                <li class="nav-items"><a href="#blog" class="nav-link">blog</a></li>
+                <li class="nav-items"><a href="#contact" class="nav-link">contact us</a></li>
+            </ul>
+        </nav>
+        <div class="icon_menu">
+            <div class="fas fa-search" id="search_menu">
+                <form action="#" class="search_about">
+                    <input type="text" placeholder="search keywords">
+                    <label for="search_box" class="fas fa-search"></label>
+                </form>
+            </div>
+            <div id="cart_items" class="fas fa-cart-arrow-down"><span>04</span></div>
+            <div class="far fa-moon" id="darktheme"></div>
+            <div class="far fa-heart" id="heart_icon"></div>
+            <div id="menu-bars" class="fa fa-bars"></div>
+        </div>
+    </header>
+    <!-- main header menu sectioin end..... -->
+
+    <!-- sidebar nav main sectioin start... -->
+    <aside class="side-bar">
+        <!-- cart side menu start...... -->
+        <div class="cart_sidebar">
+            <h4 class="cart_heading">cart items - 4</h4>
+            <div class="box">
+                <div class="image">
+                    <img src="./assets/img/shop/cart/img_01.jpg" alt="#">
+                </div>
+                <div class="content">
+                    <h4>Rorem ipsum dolor sit amet.</h4>
+                    <span>$ 20.000</span>
+                </div>
+                <a href="#" class="fas fa-times delete"></a>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="./assets/img/shop/cart/img_02.jpg" alt="#">
+                </div>
+                <div class="content">
+                    <h4>Rorem ipsum dolor sit amet-2.</h4>
+                    <span>$ 20.000</span>
+                </div>
+                <a href="#" class="fas fa-times delete"></a>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="./assets/img/shop/cart/img_03.jpg" alt="#">
+                </div>
+                <div class="content">
+                    <h4>Rorem ipsum dolor sit amet.</h4>
+                    <span>$ 20.000</span>
+                </div>
+                <a href="#" class="fas fa-times delete"></a>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="./assets/img/shop/cart/img_04.jpg" alt="#">
+                </div>
+                <div class="content">
+                    <h4>Rorem ipsum dolor sit amet.</h4>
+                    <span>$ 20.000</span>
+                </div>
+                <a href="#" class="fas fa-times delete"></a>
+            </div>
+            <div class="total_price">
+                <h1>subtotal :</h1>
+                <span>$200.01</span>
+            </div>
+            <div class="cartbtn">
+                <a href="#" class="btn">view cart</a>
+                <a href="#" class="btn btngreen">checkout</a>
+            </div>
+        </div>
+        <!-- cart side menu end........ -->
+
+        <!-- side navbar start ........ -->
+        <nav class="side-navbar">
+            <form action="#" class="side_search">
+                <input type="text" id="search_box" placeholder="search....">
+                <label for="search_box" class="fas fa-search"></label>
+            </form>
+            <ul class="mobile-menu" id="mobile-menu-active">
+                <li><a href="index.html">home</a></li>
+                <li><a href="about.html">about</a>
+
+                </li>
+                <li class="dropdown"><a href="menu.html">menu</a>
+                    <ul class="side-sub-menu">
+                        <li><a href="#">sub -1</a></li>
+                        <li><a href="#">sub -2</a></li>
+                        <li><a href="#">sub -3</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">services</a></li>
+                <li class="dropdown"><a href="#">pages</a>
+                    <ul class="side-sub-menu">
+                        <li><a href="reservetion.html">RESERVATION from</a></li>
+                        <li><a href="history.html">history</a></li>
+                        <li><a href="#">sub -4</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">blog</a></li>
+                <li><a href="#">contact us</a></li>
+            </ul>
+        </nav>
+        <!-- side navbar end ........ -->
+    </aside>
+    <div class=body-overley></div>
+    <!-- sidebar nav main sectioin end... -->
+    <main>
+        <!-- about page section start...... -->
+        <section class="about_page">
+            <div class="container">
+                <div class="content">
+                    <h1>about us</h1>
+                    <ul class="menu">
+                        <li> <a href="index.html">home</a></li>
+                        <li>about us</li>
+                    </ul>
+                </div>
+                <div class="page_title_img">
+                    <div class="page_Wrap">
+                        <img src="./assets/img/bg/page_title_img.png" alt="page-img">
+                    </div>
+                </div>
+            </div>
+
+            <div class="bottom_img">
+                <div class="icon">
+                    <img src="./assets/img/icon/bc_icon.png" alt="bc-png">
+                </div>
+            </div>
+        </section>
+        <!-- about page section end...... -->
+
+
+        <!-- service area start... -->
+        <section class="service_about">
+            <div class="container">
+                <div class="image">
+                    <img src="./assets/img/bg/services_bg.png" alt="service">
+                </div>
+                <div class="service_content">
+                    <span>Who We Are?</span>
+                    <h2>BEST BURGER IDEAS & TRADITIONS FROM THE WHOLE WORLD</h2>
+                    <p>Back in 1993, three Kiwi guys including world-renowned chef Peter Moor set up the first Gloreya
+                        Burger Kitchen in Battersea, South London Burger Kitchen in</p>
+                    <ul class="info_list">
+                        <li><i class="fas fa-check"></i>Quality products</li>
+                        <li><i class="fas fa-check"></i>Fastest delivery</li>
+                        <li><i class="fas fa-check"></i>World’s best Chef</li>
+                        <li><i class="fas fa-check"></i>Great Location</li>
+                    </ul>
+                    <div class="btn">book a table</div>
+                </div>
+            </div>
+        </section>
+        <!-- service area start... -->
+
+        <!-- delivery area about  start ........ -->
+        <section class="delivery">
+            <div class="delivery_wrap">
+                <div class="container">
+                    <div class="del_content">
+                        <span>Fastest delivery</span>
+                        <h2>FASTEST DELIVERY ON YOUR DOOR STEP</h2>
+                        <button class="btn">order now</button>
+                    </div>
+                    <div class="del_image">
+                        <div class="cta_img">
+                            <img src="./assets/img/bg/cta_img.png" alt="cta_img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- delivery area about  Ends ........ -->
+
+        <!-- testimonial area start..... -->
+        <section class="testimonial_area_2">
+            <!-- <div class="container"> -->
+            <div class="row">
+                <div class="col">
+                    <div class="test_wrap">
+                        <div class="title">
+                            <span>Testimonial</span>
+                            <h2>OUR CUSTOMER SAY</h2>
+                        </div>
+                        <div class="box-content-slide owl-carousel">
+                            <div class="box">
+                                <div class="tm-icon">
+                                    <img src="./assets/img/icon/tm_q_02.png" alt="tm-icon">
+                                </div>
+                                <p>Rorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                    nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                    irure dolor in repree rahye.</p>
+                                <div class="author_info">
+                                    <div class="author-img">
+                                        <img src="./assets/img/testimonial/tm_author.png" alt="auto-2">
+                                    </div>
+                                    <h4>Rasalina De Willamson</h4>
+                                    <span>Founder & co</span>
+
+                                </div>
+                            </div>
+                            <div class="box">
+                                    <div class="tm-icon">
+                                        <img src="./assets/img/icon/tm_q_02.png" alt="tm-icon">
+                                    </div>
+                                    <p>Rorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud
+                                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                        irure dolor in repree rahye.</p>
+                                    <div class="author_info">
+                                        <div class="author-img">
+                                            <img src="./assets/img/testimonial/tm_author.png" alt="auto-2">
+                                        </div>
+                                        <h4>Rasalina De Willamson</h4>
+                                        <span>Founder & co</span>
+                                    </div>
+                                </div>
+                                <div class="box">
+                                    <div class="tm-icon">
+                                        <img src="./assets/img/icon/tm_q_02.png" alt="tm-icon">
+                                    </div>
+                                    <p>Rorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud
+                                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                        irure dolor in repree rahye.</p>
+                                    <div class="author_info">
+                                        <div class="author-img">
+                                            <img src="./assets/img/testimonial/tm_author.png" alt="auto-2">
+                                        </div>
+                                        <h4>Rasalina De Willamson</h4>
+                                        <span>Founder & co</span>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col_2">
+                    <div class="reservetion_img">
+                        <img src="./assets/img/bg/testimonial_bg.jpg" alt="reservetion_img">
+                        <a href="#" class="video_icon"><i class="fas fa-play"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- </div> -->
+        </section>
+        <!-- testimonial area start..... -->
+
+
+        <!-- team area starts .... -->
+        <section class="team_area team_area_about">
+            <div class="container">
+                <div class="row">
+                    <div class="content">
+                        <span>Our Professional</span>
+                        <h2>MEET OUR STUFF</h2>
+                    </div>
+                    <a href="#" class="btn">view all staff</a>
+                </div>
+                <div class="box-container">
+                    <div class="box">
+                        <div class="image">
+                            <img src="./assets/img/team/img_01.png" alt="team1">
+                        </div>
+                        <div class="content">
+                            <h3>RASALINA DE</h3>
+                            <span>12 YEAR EXPERIENCE</span>
+                        </div>
+                        <div class="icons">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="image">
+                            <img src="./assets/img/team/img_02.png" alt="team1">
+                        </div>
+                        <div class="content">
+                            <h3>MARK HENERYTIX</h3>
+                            <span>5 YEAR EXPERIENCE</span>
+                        </div>
+                        <div class="icons">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="image">
+                            <img src="./assets/img/team/img_03.png" alt="team1">
+                        </div>
+                        <div class="content">
+                            <h3>YLINA PITERSON KIM</h3>
+                            <span>8 YEAR EXPERIENCE</span>
+                        </div>
+                        <div class="icons">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- team area Ends .... -->
+
+
+
+        <!-- brand area start......  -->
+        <section class="brand_area">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="image">
+                            <img src="./assets/img/brand/brand_01.png" alt="brand-1">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="image">
+                            <img src="./assets/img/brand/brand_02.png" alt="brand-1">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="image">
+                            <img src="./assets/img/brand/brand_03.png" alt="brand-1">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="image">
+                            <img src="./assets/img/brand/brand_04.png" alt="brand-1">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="image">
+                            <img src="./assets/img/brand/brand_05.png" alt="brand-1">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="image">
+                            <img src="./assets/img/brand/brand_06.png" alt="brand-1">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- brand area end......  -->
+    </main>
+    <!-- footer area start ..... -->
+    <footer class="footer_area">
+        <div class="container">
+            <div class="footer-top">
+                <div class="sub_txt">
+                    <h3>SUBSCRIBE NEWS LATTER</h3>
+                </div>
+                <div class="frm_main">
+                    <form action="#" class="form_wrap">
+                        <input type="text" placeholder="enter your mail">
+                        <button class="btn">Subscribe Now</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer_main">
+                <div class="row">
+                    <div class="col">
+                        <div class="footer-col-1">
+                            <h3>ABOUT FRUDBAZ</h3>
+                            <p>Lorem ipsum dolor sit consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                                ut
+                                labore et dolore</p>
+                            <div class="open_icon">
+                                <div class="icon">
+                                    <img src="./assets/img/icon/t_hour.png" alt="t_hour">
+                                </div>
+                                <div class="or_txt">
+                                    <h4>OPENING HOURS</h4>
+                                    <span>Mon - Sat (8:00 - 6:00)</span>
+                                    <span>Sunday - Closed</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="footer-col-2">
+                            <h3>CONTACT US</h3>
+                            <ul class="c_wrap">
+                                <li><span>ADDRESS</span>: 8638 Amarica Stranfod Mailbon Star</li>
+                                <li><span>MAIL</span>: support@example.com</li>
+                                <li><span>PHONE</span>: +7464 0187 3535 645</li>
+                                <li><span>FAX ID</span>: +9 659459 49594</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="footer-col-3">
+                            <h3>LINKS</h3>
+                            <ul>
+                                <li><a href="home">home</a></li>
+                                <li><a href="home">about</a></li>
+                                <li><a href="home">news</a></li>
+                                <li><a href="home">shop</a></li>
+                                <li><a href="home">faq</a></li>
+                                <li><a href="home">contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="footer-col-4">
+                            <h3>RECENT BLOG</h3>
+                            <ul class="post">
+                                <li>
+                                    <div class="post_thumb">
+                                        <a href="#">
+                                            <img src="./assets/img/blog/widget-post/img_01.jpg" alt="poast-1">
+                                        </a>
+                                    </div>
+                                    <div class="content">
+                                        <a href="#">Best Smell of Americano Coffee Trins</a>
+                                        <span>DECEMBER 30 - 2021</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="post_thumb">
+                                        <a href="#">
+                                            <img src="./assets/img/blog/widget-post/img_02.jpg" alt="poast-1">
+                                        </a>
+                                    </div>
+                                    <div class="content">
+                                        <a href="#">Best Smell of Americano Coffee Trins</a>
+                                        <span>JANUARY 03 - 2021</span>
+                                    </div>
+
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_bottom">
+                <div class="row">
+                    <div class="footer_logo">
+                        <a href="#">
+                            <img src="./assets/img/logo/logo_white.png" alt="footer-logo">
+                        </a>
+                    </div>
+                    <div class="copyright_txt">
+                        <p>Copy Right@ Example 2021.Design By XpressRow</p>
+                    </div>
+                    <div class="social_icon">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer area ends ..... -->
+
+
+    <!-- script js file add... -->
+    <script src="./assets/js/jquery/jquery-3.6.0.min.js"></script>
+    <script src="./assets/js/jquery/jquery-ui.js"></script>
+    <script src="./assets/js/jquery/category-filter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/metisMenu/3.0.7/metisMenu.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="./assets/js/wow/wow.min.js"></script>
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>

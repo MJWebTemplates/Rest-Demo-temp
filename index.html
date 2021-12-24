@@ -1,0 +1,1037 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/metisMenu/3.0.7/metisMenu.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+    <link rel="stylesheet" href="./assets/js/jquery/jquery-ui.min.css">
+    <link rel="stylesheet" href="./assets/font/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/css/animate/animate.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+
+
+</head>
+
+<body>
+
+
+    <!-- preloader section start........ -->
+    <div class="preloader">
+        <div class="spinner">
+            <div class="dot1"></div>
+            <div class="dot2"></div>
+        </div>
+    </div>
+    <!-- preloader section ends........ -->
+
+    <!-- back to top page start ..... -->
+    <div id="thetop"></div>
+    <div class="backtotop">
+        <a href="#" id="scroll"><i class="fas fa-long-arrow-alt-up"></i></a>
+    </div>
+    <!-- back to top page Ends ..... -->
+
+    <!-- main header menu sectioin start..... -->
+    <header class="header">
+        <a href="#" class="img_logo"><img src="./assets/img/logo/logo.png" alt="#"></a>
+        <nav class="navbar">
+            <ul class="nav_menu">
+                <li class="nav-items active"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-items"><a href="about.html" class="nav-link">about</a></li>
+                <li class="nav-items"><a href="menu.html" class="nav-link">menu</a>
+                    <ul class="sub-menu">
+                        <li class="active"><a href="shop.html" class="sub-link">shop list</a></li>
+                        <li><a href="#" class="sub-link">team-menu-2</a></li>
+                        <li><a href="#" class="sub-link">faq-menu-3</a></li>
+                        <li><a href="#" class="sub-link">sub-menu-4</a></li>
+                    </ul>
+                </li>
+                <li class="nav-items"><a href="#services" class="nav-link">services</a></li>
+                <li class="nav-items"><a href="#pages" class="nav-link">pages</a>
+                    <ul class="sub-menu">
+                        <li class="active"><a href="reservetion.html" class="sub-link">RESERVATION FORM</a></li>
+                        <li><a href="history.html" class="sub-link">HISTORY</a></li>
+                        <li><a href="#" class="sub-link">sub-menu-3</a></li>
+                        <li><a href="#" class="sub-link">sub-menu-4</a></li>
+                    </ul>
+                </li>
+                <li class="nav-items"><a href="#blog" class="nav-link">blog</a></li>
+                <li class="nav-items"><a href="#contact" class="nav-link">contact us</a></li>
+            </ul>
+        </nav>
+        <div class="icon_menu">
+            <form action="#" class="search_form">
+                <input type="text" id="search_box" placeholder="search....">
+                <label for="search_box" class="fas fa-search"></label>
+            </form>
+            <div id="cart_items" class="fas fa-cart-arrow-down"><span>04</span></div>
+            <div class="far fa-moon" id="darktheme"></div>
+            <div class="far fa-heart" id="heart_icon"></div>
+            <div id="menu-bars" class="fa fa-bars"></div>
+        </div>
+    </header>
+    <!-- main header menu sectioin ends..... -->
+
+    <!-- sidebar nav main sectioin start... -->
+    <aside class="side-bar">
+        <!-- cart side menu start...... -->
+        <div class="cart_sidebar">
+            <h4 class="cart_heading">cart items - 4</h4>
+            <div class="box">
+                <div class="image">
+                    <img src="./assets/img/shop/cart/img_01.jpg" alt="#">
+                </div>
+                <div class="content">
+                    <h4>Rorem ipsum dolor sit amet.</h4>
+                    <span>$ 20.000</span>
+                </div>
+                <a href="#" class="fas fa-times delete"></a>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="./assets/img/shop/cart/img_02.jpg" alt="#">
+                </div>
+                <div class="content">
+                    <h4>Rorem ipsum dolor sit amet-2.</h4>
+                    <span>$ 20.000</span>
+                </div>
+                <a href="#" class="fas fa-times delete"></a>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="./assets/img/shop/cart/img_03.jpg" alt="#">
+                </div>
+                <div class="content">
+                    <h4>Rorem ipsum dolor sit amet.</h4>
+                    <span>$ 20.000</span>
+                </div>
+                <a href="#" class="fas fa-times delete"></a>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="./assets/img/shop/cart/img_04.jpg" alt="#">
+                </div>
+                <div class="content">
+                    <h4>Rorem ipsum dolor sit amet.</h4>
+                    <span>$ 20.000</span>
+                </div>
+                <a href="#" class="fas fa-times delete"></a>
+            </div>
+            <div class="total_price">
+                <h1>subtotal :</h1>
+                <span>$200.01</span>
+            </div>
+            <div class="cartbtn">
+                <a href="#" class="btn">view cart</a>
+                <a href="#" class="btn btngreen">checkout</a>
+            </div>
+        </div>
+        <!-- cart side menu end........ -->
+
+        <!-- side navbar start ........ -->
+        <nav class="side-navbar">
+            <form action="#" class="side_search">
+                <input type="text" id="search_box" placeholder="search....">
+                <label for="search_box" class="fas fa-search"></label>
+            </form>
+            <ul class="mobile-menu" id="mobile-menu-active">
+                <li><a href="index.html">home</a></li>
+                <li><a href="about.html">about</a>
+
+                </li>
+                <li class="dropdown"><a href="menu.html">menu</a>
+                    <ul class="side-sub-menu">
+                        <li><a href="#">sub -1</a></li>
+                        <li><a href="#">sub -1</a></li>
+                        <li><a href="#">sub -1</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">services</a></li>
+                <li class="dropdown"><a href="#">pages</a>
+                    <ul class="side-sub-menu">
+                        <li><a href="reservetion.html">RESERVATION FORM</a></li>
+                        <li><a href="#">sub -3</a></li>
+                        <li><a href="#">sub -4</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">blog</a></li>
+                <li><a href="#">contact us</a></li>
+            </ul>
+        </nav>
+        <!-- side navbar end ........ -->
+    </aside>
+    <div class=body-overley></div>
+    <!-- sidebar nav main sectioin ends... -->
+
+    <!-- hero section start........ -->
+    <section class="home" id="home">
+        <div class="hero_wrap"></div>
+        <div class="container">
+            <div class="col-2">
+                <div class="image">
+                    <img src="./assets/img/hero/img_01.png" alt="hero img">
+                </div>
+                <div class="small-img">
+                    <img src="./assets/img/icon/d_img.png" alt="small image">
+                </div>
+            </div>
+            <div class="col-1 order-first">
+                <div class="content">
+                    <h5>Medium 2-topping* Burger</h5>
+                    <h2>ARE YOU<br>HUNGRY?</h2>
+                    <p>As well known and we are very busy all days advice you. advice you to call us of
+                        before
+                        arriving.
+                    </p>
+                    <div class="btnWrap">
+                        <a href="#" class="btn">Learn More</a>
+                        <a href="#" class="btn btngreen">See our menu</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="info-list">
+                    <ul class="info-block">
+                        <li>
+                            <h4>GREAT LOCATION</h4>
+                            <p>Rorem ipsum dolor sit amet, etur advoluptatem voluptatem</p>
+                            <div class="count">
+                                <span>01</span>
+                            </div>
+                        </li>
+                        <li>
+                            <h4>NATURE FIRST</h4>
+                            <p>Rorem ipsum dolor sit amet, etur advoluptatem voluptatem</p>
+                            <div class="count">
+                                <span>02</span>
+                            </div>
+                        </li>
+                        <li>
+                            <h4>HEALTHY FOOD</h4>
+                            <p>Rorem ipsum dolor sit amet, etur advoluptatem voluptatem</p>
+                            <div class="count">
+                                <span>03</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="hero_bottom">
+            <div class="socialmenu">
+                <a href="#"><i class="fab fa-facebook-f"></i> facebook</a>
+                <a href="#"><i class="fab fa-twitter"></i> twitter</a>
+                <a href="#"><i class="fab fa-youtube"></i> youtube</a>
+            </div>
+            <div class="hero_video">
+                <div class="v_paly">
+                    <h6>play video</h6>
+                    <a class="popup-video" href="https://vimeo.com/39829860" type="video">
+                        <span class="fas fa-play"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- hero section End........ -->
+
+    <!-- category_area section start ......... -->
+    <section class="category_area">
+        <div class="heading">
+            <span class="title">Our Popular Menu</span>
+            <h2>WENT TO EAT?</h2>
+        </div>
+        <div class="container">
+            <div class="owl-carousel slider">
+                <div class="slide">
+                    <div class="content">
+                        <a href="#"><i class="fas fa-hamburger"></i></a>
+                        <a href="#">
+                            <h3>Pizza & Drink</h3>
+                        </a>
+                        <p>Rorem ipsum advolu ptateme volupta tem Rorem ipsuey</p>
+                    </div>
+                    <img src="./assets/img/category/cat_01.png" alt="img">
+                    <div class="cart_shape">
+                        <img src="./assets/img/icon/cat_shape.png" alt="img">
+                    </div>
+                    <div class="cart_num"><span>01</span></div>
+                </div>
+                <div class="slide">
+                    <div class="content">
+                        <a href="#"><i class="fas fa-ice-cream"></i></a>
+                        <a href="#">
+                            <h3>Chicken</h3>
+                        </a>
+                        <p>Rorem ipsum advolu ptateme volupta tem Rorem ipsuey</p>
+                    </div>
+                    <img src="./assets/img/category/cat_02.png" alt="img">
+                    <div class="cart_shape">
+                        <img src="./assets/img/icon/cat_shape.png" alt="img">
+                    </div>
+                    <div class="cart_num"><span>02</span></div>
+                </div>
+                <div class="slide">
+                    <div class="content">
+                        <a href="#"><i class="fas fa-pizza-slice"></i></a>
+                        <a href="#">
+                            <h3>Pizza & Drink</h3>
+                        </a>
+                        <p>Rorem ipsum advolu ptateme volupta tem Rorem ipsuey</p>
+                    </div>
+                    <img src="./assets/img/category/cat_03.png" alt="img">
+                    <div class="cart_shape">
+                        <img src="./assets/img/icon/cat_shape.png" alt="img">
+                    </div>
+                    <div class="cart_num"><span>03</span></div>
+                </div>
+                <div class="slide">
+                    <div class="content">
+                        <a href="#"><i class="fas fa-fish"></i></a>
+                        <a href="#">
+                            <h3>Pizza & Drink</h3>
+                        </a>
+                        <p>Rorem ipsum advolu ptateme volupta tem Rorem ipsuey</p>
+                    </div>
+                    <img src="./assets/img/category/cat_04.png" alt="img">
+                    <div class="cart_shape">
+                        <img src="./assets/img/icon/cat_shape.png" alt="img">
+                    </div>
+                    <div class="cart_num"><span>04</span></div>
+                </div>
+                <div class="slide">
+                    <div class="content">
+                        <a href="#"><i class="fas fa-fish"></i></a>
+                        <a href="#">
+                            <h3>Pizza & Drink</h3>
+                        </a>
+                        <p>Rorem ipsum advolu ptateme volupta tem Rorem ipsuey</p>
+                    </div>
+                    <img src="./assets/img/category/cat_02.png" alt="img">
+                    <div class="cart_shape">
+                        <img src="./assets/img/icon/cat_shape.png" alt="img">
+                    </div>
+                    <div class="cart_num"><span>05</span></div>
+                </div>
+                <div class="slide">
+                    <div class="content">
+                        <a href="#"><i class="fas fa-fish"></i></a>
+                        <a href="#">
+                            <h3>Pizza & Drink</h3>
+                        </a>
+                        <p>Rorem ipsum advolu ptateme volupta tem Rorem ipsuey</p>
+                    </div>
+                    <img src="./assets/img/category/cat_02.png" alt="img">
+                    <div class="cart_shape">
+                        <img src="./assets/img/icon/cat_shape.png" alt="img">
+                    </div>
+                    <div class="cart_num"><span>06</span></div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- category_area section ends ......... -->
+
+    <!-- offer area section start  -->
+    <section class="offer_area">
+        <div class="container">
+            <div class="content_col">
+                <span>Special Offer</span>
+                <h2>GOOD FOOD, DRINKS & GREAT COMPANY.</h2>
+                <p>As well known and we are very busy all days advice you. advice you to call us of before arriving,
+                    so
+                    we can guarantee your seat. advice you to call us of before arriving As well known and we are
+                    very
+                    busy all days advice you</p>
+                <div class="price">
+                    <a href="#" class="btn green">order now</a>
+                    <h4>$56.80</h4>
+                    <span>$40.20</span>
+                </div>
+            </div>
+            <div class="image_col">
+                <img src="./assets/img/offer/offer_img.png" alt="offer img">
+                <div class="d_img">
+                    <img src="./assets/img/icon/d_img.png" alt="d image">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- offer area section ends....  -->
+
+
+    <!-- shop  area start ...... -->
+    <section class="shop_area">
+        <div class="heading">
+            <span class="title">Popular dishes</span>
+            <h2>POPULAR DISHES</h2>
+        </div>
+        <div class="shop-cart-menu">
+            <div class="shop_menu">
+                <button class="active" data-filter="all">all categories</button>
+                <button data-filter="cat1">pizaa</button>
+                <button data-filter="cat2">Burger</button>
+                <button data-filter="cat3">Blueberry Shake</button>
+                <button data-filter="cat4">Chicken Chup</button>
+                <button data-filter="cat5">Ice Cream</button>
+                <button data-filter="cat6">Drink</button>
+            </div>
+        </div>
+
+        <div class="container grid">
+            <div class="box filter cat1 cat3  cat5">
+                <div class="icon">
+                    <a href="#"><i class="fas fa-cart-plus"></i></a>
+                    <a href="#"><i class="far fa-heart"></i></a>
+                    <a href="#"><i class="fas fa-eye"></i></a>
+                </div>
+                <div class="image">
+                    <img src="./assets/img/shop/img_01.png" alt="shop1">
+                </div>
+                <div class="star">
+                    <span>fizza</span>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <h3 class="title"><a href="#">BANGLADESHI SENDRUES</a></h3>
+                <div class="price">
+                    <span>price -</span>
+                    <span class="new">$30.33</span>
+                    <span class="old">$37.12</span>
+                </div>
+            </div>
+            <div class="box filter cat1 cat6 cat2 cat3">
+                <span class="badge">10%-</span>
+                <div class="icon">
+                    <a href="#"><i class="fas fa-cart-plus"></i></a>
+                    <a href="#"><i class="far fa-heart"></i></a>
+                    <a href="#"><i class="fas fa-eye"></i></a>
+                </div>
+                <div class="image">
+                    <img src="./assets/img/shop/img_02.png" alt="shop1">
+                </div>
+                <div class="star">
+                    <span>CHICKEN</span>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <h3 class="title"><a href="#">UNLIMITED CHICKEN FRY</a></h3>
+                <div class="price">
+                    <span>price -</span>
+                    <span class="new">$30.33</span>
+                    <span class="old">$37.12</span>
+                </div>
+            </div>
+            <div class="box filter cat1 cat4 cat2">
+                <div class="icon">
+                    <a href="#"><i class="fas fa-cart-plus"></i></a>
+                    <a href="#"><i class="far fa-heart"></i></a>
+                    <a href="#"><i class="fas fa-eye"></i></a>
+                </div>
+                <div class="image">
+                    <img src="./assets/img/shop/img_03.png" alt="shop1">
+                </div>
+                <div class="star">
+                    <span>FULL BURGAR</span>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <h3 class="title"><a href="#">UNLIMITED CHICKEN FRY</a></h3>
+                <div class="price">
+                    <span>price -</span>
+                    <span class="new">$30.33</span>
+                    <span class="old">$37.12</span>
+                </div>
+            </div>
+            <div class="box filter cat3 cat5 cat6">
+                <span class="badge">new</span>
+                <div class="icon">
+                    <a href="#"><i class="fas fa-cart-plus"></i></a>
+                    <a href="#"><i class="far fa-heart"></i></a>
+                    <a href="#"><i class="fas fa-eye"></i></a>
+                </div>
+                <div class="image">
+                    <img src="./assets/img/shop/img_04.png" alt="shop1">
+                </div>
+                <div class="star">
+                    <span>fizza</span>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <h3 class="title"><a href="#">UNLIMITED CHICKEN FRY</a></h3>
+                <div class="price">
+                    <span>price -</span>
+                    <span class="new">$30.33</span>
+                    <span class="old">$37.12</span>
+                </div>
+            </div>
+            <div class="box filter cat5 cat1">
+                <div class="icon">
+                    <a href="#"><i class="fas fa-cart-plus"></i></a>
+                    <a href="#"><i class="far fa-heart"></i></a>
+                    <a href="#"><i class="fas fa-eye"></i></a>
+                </div>
+                <div class="image">
+                    <img src="./assets/img/shop/img_05.png" alt="shop1">
+                </div>
+                <div class="star">
+                    <span>FULL BURGAR</span>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <h3 class="title"><a href="#">UNLIMITED CHICKEN FRY</a></h3>
+                <div class="price">
+                    <span>price -</span>
+                    <span class="new">$30.33</span>
+                    <span class="old">$37.12</span>
+                </div>
+            </div>
+            <div class="box filter cat6 cat3">
+                <div class="icon">
+                    <a href="#"><i class="fas fa-cart-plus"></i></a>
+                    <a href="#"><i class="far fa-heart"></i></a>
+                    <a href="#"><i class="fas fa-eye"></i></a>
+                </div>
+                <div class="image">
+                    <img src="./assets/img/shop/img_06.png" alt="shop1">
+                </div>
+                <div class="star">
+                    <span>FULL BURGAR</span>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <h3 class="title"><a href="#">UNLIMITED CHICKEN FRY</a></h3>
+                <div class="price">
+                    <span>price -</span>
+                    <span class="new">$30.33</span>
+                    <span class="old">$37.12</span>
+                </div>
+            </div>
+            <div class="box filter cat4 cat5">
+                <div class="icon">
+                    <a href="#"><i class="fas fa-cart-plus"></i></a>
+                    <a href="#"><i class="far fa-heart"></i></a>
+                    <a href="#"><i class="fas fa-eye"></i></a>
+                </div>
+                <div class="image">
+                    <img src="./assets/img/shop/img_07.png" alt="shop1">
+                </div>
+                <div class="star">
+                    <span>FULL BURGAR</span>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <h3 class="title"><a href="#">UNLIMITED CHICKEN FRY</a></h3>
+                <div class="price">
+                    <span>price -</span>
+                    <span class="new">$30.33</span>
+                    <span class="old">$37.12</span>
+                </div>
+            </div>
+        </div>
+        <div class="btn_menu">
+            <a href="#" class="btn green">all menu</a>
+        </div>
+    </section>
+    <!-- shop area end ...... -->
+
+    <!-- spacial offer area start ...... -->
+    <section class="special_offer">
+        <div class="container">
+            <div class="content">
+                <span>Special Kombo Pack</span>
+                <h2>WE MAKE THE BEST*<br>BURGER IN YOUR TOWN</h2>
+                <p>As well known and we are very busy all days advice you. advice you to call us of before arriving,
+                    so
+                    we can guarantee your seat. advice you to call us of before arriving, so we canAs well known and
+                    we
+                    are very busy all days advice you. advice you to call us of before arriving</p>
+                <div class="btn_main">
+                    <a href="#" class="btn green">order now</a>
+                    <h4>$76.22</h4>
+                    <span>$23.43</span>
+                </div>
+            </div>
+            <div class="s_img">
+                <img src="./assets/img/icon/d_img.png" alt="small">
+            </div>
+        </div>
+    </section>
+    <!-- spacial offer  area ends...... -->
+
+    <!-- food app area start......... -->
+    <section class="app_area">
+        <div class="container">
+            <div class="app_wrap">
+                <div class="row">
+                    <div class="image">
+                        <div class="app_img">
+                            <img src="./assets/img/bg/cta_app.png" alt="cat app">
+                        </div>
+                    </div>
+                    <div class="content">
+                        <span>Download App</span>
+                        <h2>BEST APP FOR<br>FOOD DELIVERY</h2>
+                        <div class="icons">
+                            <a href="#">
+                                <img src="./assets/img/icon/app_store.png" alt="app">
+                            </a>
+                            <a href="#">
+                                <img src="./assets/img/icon/play_store.png" alt="play">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- food app area  Ends......... -->
+
+    <!-- team area starts .... -->
+    <section class="team_area">
+        <div class="container">
+            <div class="row">
+                <div class="content">
+                    <span>Our Professional</span>
+                    <h2>MEET OUR STUFF</h2>
+                </div>
+                <a href="#" class="btn">view all staff</a>
+            </div>
+            <div class="box-container">
+                <div class="box">
+                    <div class="image">
+                        <img src="./assets/img/team/img_01.png" alt="team1">
+                    </div>
+                    <div class="content">
+                        <h3>RASALINA DE</h3>
+                        <span>12 YEAR EXPERIENCE</span>
+                    </div>
+                    <div class="icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="./assets/img/team/img_02.png" alt="team1">
+                    </div>
+                    <div class="content">
+                        <h3>MARK HENERYTIX</h3>
+                        <span>5 YEAR EXPERIENCE</span>
+                    </div>
+                    <div class="icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="./assets/img/team/img_03.png" alt="team1">
+                    </div>
+                    <div class="content">
+                        <h3>YLINA PITERSON KIM</h3>
+                        <span>8 YEAR EXPERIENCE</span>
+                    </div>
+                    <div class="icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- team area Ends .... -->
+
+    <!-- test area starts...... -->
+    <section class="test_area">
+        <div class="container">
+            <div class="row">
+                <div class="content">
+                    <span>Customer Feedback</span>
+                    <h2>WHAT OUR CLIENT SAY ?</h2>
+                    <p>Rorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat. ore eu fuulla pariatur. Excepteur sint
+                        occaecat
+                        cupidatat non proideney.</p>
+
+                    <div class="tm_counter">
+                        <li>
+                            <h3>15k <span>+</span></h3>
+                            <span>HAPPY CUSTOMER</span>
+                        </li>
+                        <li>
+                            <h3>16 <span>+</span></h3>
+                            <span>AWARD WINING</span>
+                        </li>
+                        <li>
+                            <h3>50 <span>+</span></h3>
+                            <span>FOOD MENU</span>
+                        </li>
+                    </div>
+                </div>
+                <div class="box-container">
+
+                    <div class="review-slider owl-carousel">
+                        <div class="box">
+                            <div class="heading">
+                                <div class="tm_image">
+                                    <img src="./assets/img/testimonial/author_01.png" alt="author_01">
+                                </div>
+                                <div class="tm_quote">
+                                    <img src="./assets/img/icon/quote.png" alt="quote">
+                                </div>
+                            </div>
+                            <p>Great food! Fresh, quick, friendly, delicious, affordable! Very flexible with
+                                orders.
+                                Great service! Great portions! If you want great seafood, this place will not
+                                disappoint you. Definitelyy.</p>
+                            <div class="tm_bottom">
+                                <div class="tm_info">
+                                    <h4>Rasalina De</h4>
+                                    <span>Founder & co</span>
+                                </div>
+                                <div class="reating_wrap">
+                                    <div class="star">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                    <span>4 rating</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="heading">
+                                <div class="tm_image">
+                                    <img src="./assets/img/testimonial/author_02.png" alt="author_01">
+                                </div>
+                                <div class="tm_quote">
+                                    <img src="./assets/img/icon/quote.png" alt="quote">
+                                </div>
+                            </div>
+                            <p>Great food! Fresh, quick, friendly, delicious, affordable! Very flexible with
+                                orders.
+                                Great service! Great portions! If you want great seafood, this place will not
+                                disappoint you. Definitelyy.</p>
+                            <div class="tm_bottom">
+                                <div class="tm_info">
+                                    <h4>Rahim Mia</h4>
+                                    <span>Founder & ceo</span>
+                                </div>
+                                <div class="reating_wrap">
+                                    <div class="star">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                    <span>2 rating</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="heading">
+                                <div class="tm_image">
+                                    <img src="./assets/img/testimonial/author_02.png" alt="author_01">
+                                </div>
+                                <div class="tm_quote">
+                                    <img src="./assets/img/icon/quote.png" alt="quote">
+                                </div>
+                            </div>
+                            <p>Great food! Fresh, quick, friendly, delicious, affordable! Very flexible with
+                                orders.
+                                Great service! Great portions! If you want great seafood, this place will not
+                                disappoint you. Definitelyy.</p>
+                            <div class="tm_bottom">
+                                <div class="tm_info">
+                                    <h4>Rahim Mia</h4>
+                                    <span>Founder & ceo</span>
+                                </div>
+                                <div class="reating_wrap">
+                                    <div class="star">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                    <span>2 rating</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- test area ends...... -->
+
+    <!-- blog area start...... -->
+    <section class="blog_area">
+        <div class="heading">
+            <span class="title">Recent Article</span>
+            <h2>LATEST NEWS & BLOG</h2>
+        </div>
+        <div class="box-container">
+            <div class="box">
+                <div class="content">
+                    <span>13 DECEMBER 2021</span>
+                    <a href="#">Best Burger In Your Soci...</a>
+                </div>
+                <figure class="image">
+                    <a href="#">
+                        <img src="./assets/img/blog/blog_01.jpg" alt="blog-img">
+                    </a>
+                </figure>
+                <div class="blog_btn">
+                    <a href="#">
+                        <i class="fas fa-long-arrow-alt-right"></i>read more
+                    </a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="content">
+                    <span>22 JANUARY 2021</span>
+                    <a href="#">12 SPEEDY SEAFOOD RECIPES..</a>
+                </div>
+                <figure class="image">
+                    <a href="#">
+                        <img src="./assets/img/blog/blog_02.jpg" alt="blog-img">
+                    </a>
+                </figure>
+                <div class="blog_btn">
+                    <a href="#">
+                        <i class="fas fa-long-arrow-alt-right"></i>read more
+                    </a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="content">
+                    <span>09 JULY 2021</span>
+                    <a href="#">WHO’S WINNING THE FAST...</a>
+                </div>
+                <figure class="image">
+                    <a href="#">
+                        <img src="./assets/img/blog/blog_03.jpg" alt="blog-img">
+                    </a>
+                </figure>
+                <div class="blog_btn">
+                    <a href="#">
+                        <i class="fas fa-long-arrow-alt-right"></i>read more
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="btn_all">
+            <a href="#" class="btn green">sell all blog</a>
+        </div>
+    </section>
+    <!-- blog area ends...... -->
+
+    <!-- brand area start......  -->
+    <section class="brand_area">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="image">
+                        <img src="./assets/img/brand/brand_01.png" alt="brand-1">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="image">
+                        <img src="./assets/img/brand/brand_02.png" alt="brand-1">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="image">
+                        <img src="./assets/img/brand/brand_03.png" alt="brand-1">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="image">
+                        <img src="./assets/img/brand/brand_04.png" alt="brand-1">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="image">
+                        <img src="./assets/img/brand/brand_05.png" alt="brand-1">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="image">
+                        <img src="./assets/img/brand/brand_06.png" alt="brand-1">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- brand area ends......  -->
+
+    <!-- footer area start ..... -->
+    <footer class="footer_area">
+        <div class="container">
+            <div class="footer-top">
+                <div class="sub_txt">
+                    <h3>SUBSCRIBE NEWS LATTER</h3>
+                </div>
+                <div class="frm_main">
+                    <form action="#" class="form_wrap">
+                        <input type="text" placeholder="enter your mail">
+                        <button class="btn">Subscribe Now</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer_main">
+                <div class="row">
+                    <div class="col">
+                        <div class="footer-col-1">
+                            <h3>ABOUT FRUDBAZ</h3>
+                            <p>Lorem ipsum dolor sit consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                                ut
+                                labore et dolore</p>
+                            <div class="open_icon">
+                                <div class="icon">
+                                    <img src="./assets/img/icon/t_hour.png" alt="t_hour">
+                                </div>
+                                <div class="or_txt">
+                                    <h4>OPENING HOURS</h4>
+                                    <span>Mon - Sat (8:00 - 6:00)</span>
+                                    <span>Sunday - Closed</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="footer-col-2">
+                            <h3>CONTACT US</h3>
+                            <ul class="c_wrap">
+                                <li><span>ADDRESS</span>: 8638 Amarica Stranfod Mailbon Star</li>
+                                <li><span>MAIL</span>: support@example.com</li>
+                                <li><span>PHONE</span>: +7464 0187 3535 645</li>
+                                <li><span>FAX ID</span>: +9 659459 49594</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="footer-col-3">
+                            <h3>LINKS</h3>
+                            <ul>
+                                <li><a href="home">home</a></li>
+                                <li><a href="home">about</a></li>
+                                <li><a href="home">news</a></li>
+                                <li><a href="home">shop</a></li>
+                                <li><a href="home">faq</a></li>
+                                <li><a href="home">contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="footer-col-4">
+                            <h3>RECENT BLOG</h3>
+                            <ul class="post">
+                                <li>
+                                    <div class="post_thumb">
+                                        <a href="#">
+                                            <img src="./assets/img/blog/widget-post/img_01.jpg" alt="poast-1">
+                                        </a>
+                                    </div>
+                                    <div class="content">
+                                        <a href="#">Best Smell of Americano Coffee Trins</a>
+                                        <span>DECEMBER 30 - 2021</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="post_thumb">
+                                        <a href="#">
+                                            <img src="./assets/img/blog/widget-post/img_02.jpg" alt="poast-1">
+                                        </a>
+                                    </div>
+                                    <div class="content">
+                                        <a href="#">Best Smell of Americano Coffee Trins</a>
+                                        <span>JANUARY 03 - 2021</span>
+                                    </div>
+
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_bottom">
+                <div class="row">
+                    <div class="footer_logo">
+                        <a href="#">
+                            <img src="./assets/img/logo/logo_white.png" alt="footer-logo">
+                        </a>
+                    </div>
+                    <div class="copyright_txt">
+                        <p>Copy Right@ Example 2021.Design By XpressRow</p>
+                    </div>
+                    <div class="social_icon">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer area ends ..... -->
+
+
+
+
+    <!-- script js file add... -->
+    <script src="./assets/js/jquery/jquery-3.6.0.min.js"></script>
+    <script src="./assets/js/jquery/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="./assets/js/jquery/category-filter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/metisMenu/3.0.7/metisMenu.min.js"></script>
+
+    <script src="./assets/js/wow/wow.min.js"></script>
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
